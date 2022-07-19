@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    padding-top: 53x;
+    background: #1B244A;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: -40px;
+}
+
+#homescore, #guestscore {
+    padding-top: 25px;
+    font-size: 68px;
+    color: #F94F6D;
+    font-weight: 200;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+.addedpoints {
+    display: flex;
+    justify-content: space-around;
+    color: #9AABD8;
+    width: 155px;
+    height: 45px;
+    font-weight: 200;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+p {
+    border: 1px #9AABD8 solid;
+    border-radius: 5px;
+    width: 45px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+.backdrop {
+    width: 155px;
+    height: 120px;
+    background: black;
+    border-radius: 5%;
+}

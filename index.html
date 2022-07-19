@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap" rel="stylesheet">
+    <title>Scrimba Basketball Scorecard</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+                <div class="backdrop">
+                    <h2 id="homescore">0</h2>
+                        <div class="addedpoints">
+                            <p id="increment-hs1" onclick="incrementHS1()">+1</p>             
+                            <p id="increment-hs2" onclick="incrementHS2()">+2</p>
+                            <p id="increment-hs3" onclick="incrementHS3()">+3</p>
+                        </div>
+                </div>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+                <div class="backdrop">
+                    <h2 id="guestscore">0</h2>
+                    <div class="addedpoints">
+                        <p id="increment-gs1" onclick="incrementGS1()">+1</p>             
+                        <p id="increment-gs2" onclick="incrementGS2()">+2</p>
+                        <p id="increment-gs3" onclick="incrementGS3()">+3</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
